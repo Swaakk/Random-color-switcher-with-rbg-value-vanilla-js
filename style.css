@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.widget{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.color-field{
+    border: 1px solid rgb(12, 142, 182);
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+.switcher{
+    padding: 10px;
+    background: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    color: #fff;
+    font-family: tahoma;
+    cursor: pointer;
+    
+
+}
+
+.switcher:hover{
+    opacity: 0.9;
+}
